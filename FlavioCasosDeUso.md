@@ -19,4 +19,4 @@
 - Caso tenha, aumenta o número de trocas que o jogador pode colocar no território e aumenta o número de tropas na próxima troca;
 - VR verifica se o jogador possui continentes conquistados, caso haja, o jogador pode colocar mais x tropas apenas no território daquele continente
 - Jogador adiciona tropas nos territórios dominados por ele
-- 
+- Encerra a fase de fortificação
