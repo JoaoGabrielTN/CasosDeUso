@@ -1,5 +1,4 @@
 # Fase de fortificação dos territórios no início de uma jogada
-## 1 - 
 ### ESCOPO
 - início da jogada de um jogador no war
 ### NÍVEL
