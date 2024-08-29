@@ -33,4 +33,4 @@
     3. Remove as cartas de troca usadas pelo jogador
     4. Aumenta o número de tropas a ser recebido na próxima troca
 - 3a: Se jogador possui continentes conquistados
-    1. Jogador coloca x (onde x é o número que cada continente possui caso um jogador domine ele) tropas nos territórios daquele continente
+    1. Jogador coloca X (onde X é o número que cada continente possui caso um jogador domine ele) tropas nos territórios daquele continente
