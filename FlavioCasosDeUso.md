@@ -1,6 +1,6 @@
 # Fase de fortificação dos territórios no início de uma jogada
 ## ESCOPO
-- início da jogada de um jogador no war
+- Início da jogada de um jogador no war
 
 ## NÍVEL
 - Fortificar o território do jogador que está com a vez
@@ -19,12 +19,18 @@
 ## GARANTIA DE SUCESSO
 - O jogador adiciona tropas nos territórios conquistados por ele
 
-### CONDIÇÃO DE SUCESSO PRINCIPAL
+## CONDIÇÃO DE SUCESSO PRINCIPAL
 1. Sistema inicia a vez de um jogador;
 2. Sistema verifica se o jogador possui troca;
 3. Sistema verifica se o jogador possui continentes conquistados;
 4. Jogador adiciona tropas nos territórios dominados por ele;
 5. Encerra a fase de fortificação.
 
-## Extensão
-2. A - Se jogador possui troca, a troca será feita, adicionando o número de tropas que podem ser colocados
+## Extensões
+- 2a: Se jogador possui troca
+    1. Jogador realiza troca
+    2. Aumenta o número de tropas do jogador
+    3. Remove as cartas de troca usadas pelo jogador
+    4. Aumenta o número de tropas a ser recebido na próxima troca
+- 3a: Se jogador possui continentes conquistados
+    1. Jogador coloca x (onde x é o número que cada continente possui caso um jogador domine ele) tropas nos territórios daquele continente
