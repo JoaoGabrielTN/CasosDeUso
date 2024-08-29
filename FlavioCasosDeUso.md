@@ -13,7 +13,7 @@
 ### GARANTIA DE SUCESSO
 - O jogador adiciona tropas nos territórios conquistados por ele
 ### CONDIÇÃO DE SUCESSO PRINCIPAL
-- VR escolhe um jogador para começar;
+- VR inicia a vez de um jogador;
 - VR verifica se o jogador possui trocas disponíveis;
 - Caso tenha, aumenta o número de trocas que o jogador pode colocar no território e aumenta o número de tropas na próxima troca;
 - VR verifica se o jogador possui continentes conquistados, caso haja, o jogador pode colocar mais x tropas apenas no território daquele continente
