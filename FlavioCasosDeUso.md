@@ -1,21 +1,30 @@
 # Fase de fortificação dos territórios no início de uma jogada
-### ESCOPO
+## ESCOPO
 - início da jogada de um jogador no war
-### NÍVEL
+
+## NÍVEL
 - Fortificar o território do jogador que está com a vez
-### ATOR
+
+## ATOR
 - Jogador
-### INTERESSES E INTERESSADOS
+
+## INTERESSES E INTERESSADOS
 - Jogador: deseja fortificar seu território no início de sua jogada/vez
+- Sistema: Controla o fluxo do jogo
 - Verificador de Regra (VR): Verifica se o jogador que está com a vez tem algum continente conquistado e se ele fez alguma troca
-### PRÉ-CONDIÇÕES
+
+## PRÉ-CONDIÇÕES
 - Precisa ser a vez do jogador
-### GARANTIA DE SUCESSO
+
+## GARANTIA DE SUCESSO
 - O jogador adiciona tropas nos territórios conquistados por ele
+
 ### CONDIÇÃO DE SUCESSO PRINCIPAL
-- VR inicia a vez de um jogador;
-- VR verifica se o jogador possui trocas disponíveis;
-- Caso tenha, aumenta o número de trocas que o jogador pode colocar no território e aumenta o número de tropas na próxima troca;
-- VR verifica se o jogador possui continentes conquistados, caso haja, o jogador pode colocar mais x tropas apenas no território daquele continente
-- Jogador adiciona tropas nos territórios dominados por ele
-- Encerra a fase de fortificação
+1. Sistema inicia a vez de um jogador;
+2. Sistema verifica se o jogador possui troca;
+3. Sistema verifica se o jogador possui continentes conquistados;
+4. Jogador adiciona tropas nos territórios dominados por ele;
+5. Encerra a fase de fortificação.
+
+## Extensão
+2. A - Se jogador possui troca, a troca será feita, adicionando o número de tropas que podem ser colocados
