@@ -34,6 +34,6 @@
 - Se o jogador realizou ataques durante sua jogada e teve sucesso, o sistema garantiu que os territórios inimigos foram corretamente conquistados e que os exércitos necessários foram movidos para esses novos territórios, expandindo o domínio do jogador de acordo com suas escolhas.
 - Se o jogador realocou, o sistema garantiu que a realocação foi feita de acordo com as regras de realocação.
 - O jogador que conquistou pelo menos um território ganha uma carta no final da jogada e isso foi atualizado dentro do controle de cartas do jogador.
-## **Condição de Sucesso Principal**:
+## **Condição de Sucesso Principal (Fluxo Básico)**:
 
 ## **Extensões**: 
