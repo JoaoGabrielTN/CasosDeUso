@@ -16,7 +16,7 @@
 - Jogador
 
 ## **Interessados e Interesses**: 
-- **Sistema:**  Deve garantir que a primeira jogada de cada jogador contém apenas a fortificação inicial, as jogadas posteriores a essa devem ser conectadas a partir de 3 sessões, que são, respectivamente: fortificação, ataque e realocação.
+- **Sistema:**  Deve garantir que a primeira rodada contém apenas a fortificação inicial, as rodadas posteriores a essa devem ser conectadas a partir de 3 sessões, que são, respectivamente: fortificação, ataque e realocação.
 - **Jogador:** Deseja expandir seu domínio, conquistando territórios inimigos e fortalecendo suas defesas, com o propósito de alcançar o objetivo dado.
 - **Verificador de Regra (VR):** Verifica se o jogador conquistou pelo menos um terrítorio, caso sim, recebe uma carta no final de sua jogada.
 
@@ -50,7 +50,7 @@
 13. VR checa se o jogador conquistou um terrítorio para entregar a carta
 14. Sistema passa a vez para o outro jogador
 ## **Extensões**: 
-- 1a. A jogada atual é a primeira rodada.
+- 1a. A jogada atual é da primeira rodada.
     1. Sistema entrega apenas a fase de fortificação.
     2. Jogador distribui exércitos nos territórios controlados.
     3. Sistema encerra a jogada, sem fases de ataque ou realocação.
