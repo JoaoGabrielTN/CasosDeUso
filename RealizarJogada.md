@@ -35,5 +35,47 @@
 - Se o jogador realocou, o sistema garantiu que a realocação foi feita de acordo com as regras de realocação.
 - O jogador que conquistou pelo menos um território ganha uma carta no final da jogada e isso foi atualizado dentro do controle de cartas do jogador.
 ## **Condição de Sucesso Principal (Fluxo Básico)**:
-
+1. Sistema identifica que é a vez do jogador e inicia a sua jogada
+2. Sistema calcula e atribui exécitos ao jogador com base no número de territórios controlados e bônus de continente
+3. Jogador deve distribuir os exércitos recebidos entre seus territórios conforme sua estratégia
+4. Sistema identifica que o jogador distribuiu todas as tropas e passa para a sessão de ataque
+5. Jogador seleciona um terrítorio sob seu controle e escolhe um território inimigo adjacente para atacar
+6. Sistema processa o ataque, utilizando a rolagem de dados para determinar o resultado
+7. Sistema atualiza o controle do território atacado e move os exércitos do jogador para o território conquistado
+8. Jogador escolhe passar para a fase de realocação
+9. Sistema identifica e passa para a sessão de realocação
+10. Jogador realoca as tropas
+11. Jogador finaliza a sua jogada
+12. Sistema finaliza a jogada
+13. VR checa se o jogador conquistou um terrítorio para entregar a carta
+14. Sistema passa a vez para o outro jogador
 ## **Extensões**: 
+- 1a. A jogada atual é a primeira do jogador.
+    1. Sistema entrega apenas a fase de fortificação.
+    2. Jogador distribui exércitos nos territórios controlados.
+    3. Sistema encerra a jogada, sem fases de ataque ou realocação.
+- 2a. O jogador possui um conjunto de cartas que deseja trocar por tropas.
+    1. Jogador seleciona a opção de troca de cartas.
+    2. Sistema valida o conjunto de cartas.
+    3. Sistema entrega as tropas correspondentes e o jogador as aloca.
+- 5a. O jogador opta por não iniciar nenhum ataque durante a fase de ataque.
+    1. Jogador escolhe a opção de pular a fase de ataque.
+    2. Sistema passa diretamente para a fase de realocação.
+- 5b. O jogador tenta atacar com menos tropas do que o necessário.
+    1. Sistema detecta a falta de tropas suficientes para o ataque.
+    2. Sistema notifica o jogador e não permite o ataque.
+    3. Jogador pode escolher outro ataque ou prosseguir para a realocação.
+- 6a. O jogador realiza um ataque, mas não consegue conquistar o território.
+    1. Sistema determina o resultado do ataque como mal sucedido.
+    2. Jogador pode optar por realizar outro ataque ou prosseguir para a realocação.
+- 10a. O jogador não tem tropas suficientes para realocar e tenta realocar.
+    1. Sistema bloqueia essa ação.
+- 10b. O jogador escolhe não realocar.
+    1. Jogador escolhe a opção de pular a fase de realocação.
+    2. Sistema encerra a jogada e passa o controle para o próximo jogador.
+- 13a. O jogador conquistou pelo menos um território durante a jogada.
+    1. Sistema determina que o jogador é elegível para receber uma carta. 
+    2. Sistema faz o jogador receber uma carta.
+- 13b. Sistema identifica que o jogador não conquistou pelo menos um terrítorio.
+    2. Sistema determina que o jogador não é elegível para receber uma carta.
+    3. Sistema encerra a jogada sem entregar nenhuma carta.
