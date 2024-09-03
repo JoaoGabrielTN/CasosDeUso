@@ -9,12 +9,12 @@
 - Jogador
 
 ## INTERESSES E INTERESSADOS
-- Jogador: deseja fortificar seu território no início de sua jogada/vez
+- Jogador: Deseja fortificar seu território no início de sua jogada/vez
 - Sistema: Controla o fluxo do jogo
-- Verificador de Regra (VR): Verifica se o jogador que está com a vez tem algum continente conquistado e se ele fez alguma troca
+- Verificador de Regra (VR): Verifica se o jogador que está com a vez tem algum continente conquistado e se ele pode trocar cartas
 
 ## PRÉ-CONDIÇÕES
-- Precisa ser a vez do jogador
+- Precisa ser no início da jogada do jogador
 
 ## GARANTIA DE SUCESSO
 - O jogador adiciona tropas nos territórios conquistados por ele
