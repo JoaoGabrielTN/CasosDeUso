@@ -28,6 +28,12 @@ Cada jogador tem uma cor definida para facilitar a identificação.
 A fase de inicialização está completa e o jogo está pronto para a fase de ataques.
 
 ## **Cenário de Sucesso Principal**:  
+1. O sistema de jogo distribui os territórios de acordo com o número de jogadores e as regras do jogo.
+2. O sistema atribui uma cor a cada jogador.
+3. É criada uma ordem aleatoriamente para jogadores
+4. É atribuído um objetivo individual e único para cada jogador
+5. Cada jogador começa a alocar tropas em seus territórios de acordo com a quantidade inicial de tropas permitidas.
+6. O sistema permite a alocação de tropas  sem ataque até que todas sejam distribuídas.
 ## **Extensões**:
 ## **Requisitos Especiais**:
 ## **Lista de variantes tecnlógicas e de dados**:
