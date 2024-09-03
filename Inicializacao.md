@@ -7,12 +7,13 @@
 - Jogador
 
 ## **Interessadoes e Interesses**
-- Jogador : Deseja iniciar o jogo com seus territórios bem definidos.
-- Sistema : Deseja imposibilitar dp jogador  adicionar tropas em terirorios inimigos
 - Jogador : Deseja receber um objetivo bem definido e unico.
-- Jogador : Deseja que exista uma maneira de decidir a ordem de quem vai jogar.
-- Jogador : Deseja que tenha uma cor definida para se identificar e diferenciar dos demais jogadores.
-- Jogador : Deseja adicionar tropas em seus territórios apos jogo começar.
+- Jogador : Deseja receber uma ordem de jogada para todos os demais jogadores.
+- Jogador : Deseja receber uma cor para se identificar e diferenciar dos demais jogadores(branca,  vermelho, preto, azul, amarelo e verde).
+- Jogador : Deseja receber territórios por sorteio de forma igulitaria .
+- jogador : Deseja receber carta dos territorios atribuidos a ele.
+- Jogador : deseja receber um soldado por territorio recebido na distribuição antes de iniciar jogo.
+- Jogador : Deseja adicionar tropas em seus territórios apos jogo começar com base no seguinte calculo numero de territorios/2, com no minimo de 3 tropas.
 - Jogador : Deseja que, após a fase de inicialização acabar, possa progesuir com fluxo do jogo.
 
 ## **Pré-condições**:
@@ -21,9 +22,10 @@
 ## **Garantia de Sucesso**:
 Todos os jogadores têm seus territórios definidos.
 Cada jogador recebeu um objetivo específico.
-A ordem dos jogadores para a rodada foi estabelecida.
+cada jogador recebeu as cartas dos seus territorios
+A ordem dos jogadores para a rodada foi pre-estabelecida.
 Cada jogador tem uma cor definida para facilitar a identificação e 
-tropas iniciais alocadas garantindo que a inicialização foi concluida
+tropas iniciais foram alocadas garantindo que a inicialização foi concluida
 e o jogo está pronto para proxima fase.
 
 ## **Cenário de Sucesso Principal**: 
@@ -32,35 +34,37 @@ e o jogo está pronto para proxima fase.
  - 3: sistema define umm objetivo unico para cada jogador
  - 4: sistema define uma ordem para os jogadores fazerem suas jogadas
  - 5: sitema devide os teritorios do mapa igualmente entre os jogadores 
- - 6: sistema inicia o jogo
+ - 6: sistema atribui cartas recefente aos territoririos recebidos por cada jogador
+ - 7: sistema aloca uma tropa com a respectiva com de cada jogador em seu respectivo territorio 
+ - 6: sistema inicializa o jogo
  - 7: jogadores adicionam suas tropas nos seus respectivos territorios
- na sua vez de jogar
+ na sua vez de jogar pre-estabelecida 
  - 8: sistema verifica se todos jogadores fizeram suas jogadas então encerra turno inicial
 ## **Extensões**: 
-- A. Número de Jogadores Não Definido
+- 1 Número de Jogadores Não Definido
 - descrição:O sistema não consegue identificar o número de jogadores
-- 1 O sistema solicita que todos os jogadores confirmem sua presença.
-- 2 Se algum jogador não estiver presente, o jogo não pode começar e o sistema aguarda até que todos estejam prontos.
-- 3 Se o número de jogadores estiver abaixo do mínimo necessário, o sistema informa e aguarda até que o número adequado de jogadores esteja presente.
-- B.Conflito de Cores
+- a O sistema solicita que todos os jogadores confirmem sua presença.
+- b Se algum jogador não estiver presente, o jogo não pode começar e o sistema aguarda até que todos estejam prontos.
+- c Se o número de jogadores estiver abaixo do mínimo necessário, o sistema informa e aguarda até que o número adequado de jogadores esteja presente.
+- 2 Conflito de Cores
 - descrição:Dois ou mais jogadores recebem a mesma cor
-- 1 O sistema detecta a duplicidade e atribui uma nova cor aos jogadores afetados.
-- 2 O sistema notifica os jogadores sobre a mudança de cor.
-- 3 Atribui novas cores até que todas sejam únicas.
-- C.Falha na Distribuição de Territórios
+- a O sistema detecta a duplicidade e atribui uma nova cor aos jogadores afetados.
+- b O sistema notifica os jogadores sobre a mudança de cor.
+- c Atribui novas cores até que todas sejam únicas.
+- 4 Falha na Distribuição de Territórios
 - descrição: O sistema não consegue distribuir os territórios igualmente entre os jogadores.
-- 1 O sistema revisa a distribuição.
-- 2 O sistema corrige e redistribui os territórios de forma que todos os jogadores recebam a quantidade correta.
-- D. Objetivo Não Definido
+- a O sistema revisa a distribuição.
+- b O sistema corrige e redistribui os territórios de forma que todos os jogadores recebam a quantidade correta.
+- 5 Objetivo Não Definido
 - descrição :Um jogador não recebe um objetivo específico.
-- 1 O sistema verifica se todos os jogadores têm objetivos.
-- 2 Se um objetivo não for definido, o sistema gera um novo objetivo para o jogador afetado.
-- 3  jogador é notificado sobre seu objetivo.
-- E. Problema na Alocação de Tropas Iniciais
+- a O sistema verifica se todos os jogadores têm objetivos.
+- b Se um objetivo não for definido, o sistema gera um novo objetivo para o jogador afetado.
+- c  jogador é notificado sobre seu objetivo.
+- 6 Problema na Alocação de Tropas Iniciais
 - descrição: jogador pode alocar em territorios inimigos
-- 1 checa se a alocação do jogador foi valida
-- 2 alocação foi invalida então dá oportunidade dele jogar novamente
-- 3 imposibilita de alocar no territorio de outro jogador
+- a checa se a alocação do jogador foi valida
+- b alocação foi invalida então dá oportunidade dele jogar novamente
+- c imposibilita de alocar no territorio de outro jogador
 ## **Lista de variantes tecnlógicas e de dados**:
  - Um computador com sistema operacional
 ## **Frequência de ocorrência**:
