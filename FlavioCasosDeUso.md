@@ -24,7 +24,8 @@
 2. Sistema verifica se o jogador possui troca;
 3. Sistema verifica se o jogador possui continentes conquistados;
 4. Jogador adiciona tropas nos territórios dominados por ele;
-5. Encerra a fase de fortificação.
+5. VR verifica se jogador completou seu objetivo;
+6. Encerra a fase de fortificação.
 
 ## Extensões
 - 2a: Se jogador possui troca
@@ -34,3 +35,6 @@
     4. Aumenta o número de tropas a ser recebido na próxima troca
 - 3a: Se jogador possui continentes conquistados
     1. Jogador coloca X (onde X é o número que cada continente possui caso um jogador domine ele) tropas nos territórios daquele continente
+- 5a: Se jogador completou seu objetivo:
+    1. Jogador ganha o jogo
+    2. Jogo acaba
