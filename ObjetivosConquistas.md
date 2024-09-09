@@ -39,15 +39,15 @@
 7. Sistema bloqueia jogadas futuras de outros jogadores, encerrando a partida
 8. Notificador informa o ganhador, seu objetivo e o encerramento da partida
 ## **Extensões**:
-a. Jogador alvo é eliminado antes que o jogador a quem foi designado tal objetivo, elimine-o
+1a. Jogador alvo é o próprio jogador que recebeu o objetivo
   1. Sistema vai destribuir o objetivo de 24 territórios para o jogador
   2. Notificador vai notificar ao jogador a falha no objetivo primário
   3. Notificador vai mostrar novo objetivo designado ao jogador
-b. Jogador alvo é o próprio jogador que recebeu o objetivo
+3a. Jogador alvo é eliminado antes que o jogador a quem foi designado tal objetivo, elimine-o
   1. Sistema vai destribuir o objetivo de 24 territórios para o jogador
   2. Notificador vai notificar ao jogador a falha no objetivo primário
   3. Notificador vai mostrar novo objetivo designado ao jogador
-c. Nenhum jogador conclui o objetivo (partida é encerrada precocemente)
+5a. Nenhum jogador conclui o objetivo (partida é encerrada precocemente)
   1. Jogadores vão solicitar fim da partida
   2. Verificador de Regras vai verificar solicitações dos jogadores
   3. Sistema bloqueia jogadas futuras de outros jogadores, encerrando a partida
