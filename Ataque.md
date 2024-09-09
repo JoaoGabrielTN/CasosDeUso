@@ -18,6 +18,7 @@
 - Verifica caso de empate defesa ganha.
 - Verifica caso vitoria a cor do país atacado seja a mesma do país atacante. 
 - Verifica o numéro maximo e minimo de tropas que podem ser deixadas ao conquistar o territorio.
+- Verifica se o objetivo foi concluido apos ataque.
 - **Sistema**: 
 - Após dominio do territorio sistema pinta a cor do territorio. 
 
@@ -35,11 +36,12 @@
 4. Jogador escolhe qual territorio irá atacar. 
 5. Verificador de regra verifica se territorio inimigo esta ligado ao territorio escolhido.
 6. Jogador domina territorio. 
-7. Sistema pinta territorio dominado.
-8. Verificador de regra verifica se o territorio dominado esta na cor correta.
-9. Jogador escolhe quantas tropas vão ser alocadas ao territorio dominado.
-10. Verificador de regra verifica o numéro maximo e minimo de tropas que podem ser alocadas
-11. Jogador encerra ataque.
+7. Verificadpr de regra verifica se objetivo foi concluido
+8. Sistema pinta territorio dominado.
+9. Verificador de regra verifica se o territorio dominado esta na cor correta.
+10. Jogador escolhe quantas tropas vão ser alocadas ao territorio dominado.
+11. Verificador de regra verifica o numéro maximo e minimo de tropas que podem ser alocadas
+12. Jogador encerra ataque.
 ## **Extensões**:
 - 2a: Jogador não possui o territorio 
     1. Sistema notifica que o jogador não possui o território selecionado
@@ -55,6 +57,12 @@
     2. Sistema faz a verificação de quantas tropas foram usadas.
     3. Sistema retira o numero de tropas usadas no ataque.
     4. Jogador decide se ataca novamente ou encerra ataque.
-- 10a: Numero incorreto de tropas alocadas 
+- 7a: Objetivo foi concluido.
+    1. Sistema notifica que objetivo foi concluido.
+    2. Jogo é finalizado.
+- 11a: Numero incorreto de tropas alocadas 
     1. Sistema notifica que jogador não pode colocar aquele numero de tropas.
     2. Jogador escolhe outro número de tropas.
+- 12a: Continua atacando
+    1. Jogador escolhe atacar outro territorio. 
+    2. Jogador escolhe encerrar o ataque.
