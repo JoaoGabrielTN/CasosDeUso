@@ -3,7 +3,7 @@
 ## **Escopo**: 
 - partida de war
 ## **Nível**: 
-- Ataque dos territorios
+- Objetivo de Usuario
 ## **Ator Principal**: 
 - Jogador
 ## **Interesses e Interessados**
@@ -58,7 +58,3 @@
 - 10a: Numero incorreto de tropas alocadas 
     1. Sistema notifica que jogador não pode colocar aquele numero de tropas.
     2. Jogador escolhe outro número de tropas.
-## **Requisitos Especiais**:
-## **Lista de variantes tecnlógicas e de dados**:
-## **Frequência de ocorrência**:
-## **Diversos**:
