@@ -16,7 +16,7 @@
 ## **Escopo**:
 - Partida de WAR.
 ## **Nível**:
-- Objetivo dos jogadores
+- Objetivo do Usuário
 ## **Ator Principal**:
 - Jogador
 ## **Interessados e Interesses**
