@@ -19,6 +19,7 @@
 - Verifica caso vitoria a cor do país atacado seja a mesma do país atacante. 
 - Verifica o numéro maximo e minimo de tropas que podem ser deixadas ao conquistar o territorio.
 - Verifica se o objetivo foi concluido apos ataque.
+- Verifica se é a primeira rodada.
 - **Sistema**: 
 - Após dominio do territorio sistema pinta a cor do territorio. 
 
@@ -30,6 +31,7 @@
 ## **Garantia de Sucesso**:
 - Conquista do território com atualização visual da cor e redistribuição das tropas conforme desejado pelo jogador.
 ## **Cenário de Sucesso Principal**:
+0. Verificador de regra verifica se é a primeira rodada.
 1. Jogador escolhe com qual dos seus territorios deseja atacar.
 2. Verificador de regra verifica se ele possui o territorio.
 3. Verificador de regra verifica se ele pode atacar com esse territorio.
@@ -43,6 +45,9 @@
 11. Verificador de regra verifica o numéro maximo e minimo de tropas que podem ser alocadas
 12. Jogador encerra ataque.
 ## **Extensões**:
+- 0a: É a primeira rodada. 
+    1. Sistema notifica que é a primeira rodada e o ataque não esta disponivel
+    2. Sistema passa pra realocação de tropas 
 - 2a: Jogador não possui o territorio 
     1. Sistema notifica que o jogador não possui o território selecionado
     2. Jogador escolhe outro territorio em sua posse.
