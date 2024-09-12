@@ -25,7 +25,7 @@
 - **Verificador de Regras (VR)**: Verifica se algum jogador já alcançou seu objetivo
 - **Notificador**: Entrega os objetivos para cada jogador no início da partida, informa quando algum objetivo foi concluído (e quem o concluiu), e notifica o jogador caso seu objetivo tenha sido alterado (fluxo alternativo do objetivo de eliminação de jogador)
 ## **Pré-Condições**:
-- Partida ser iniciada
+- Partida ser iniciada com pelo menos 1 jogador
 ## **Garantia de Sucesso**:
 - Todos os jogadores recebem seus devidos objetivos no início.
 - A partida será encerrada assim que um jogador conclua seu objetivo.
